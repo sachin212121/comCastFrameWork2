@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="60" started-at="2022-05-11T10:41:35 IST" finished-at="2022-05-11T10:41:35 IST">
+    <groups>
+      <group name="regression">
+        <method signature="CreateModDelCampTest.modifyCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@51565ec2]" name="modifyCampTest" class="com.crm.comcast.campaignTest.CreateModDelCampTest"/>
+      </group> <!-- regression -->
+      <group name="integration">
+        <method signature="CreateModDelCampTest.delCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@51565ec2]" name="delCampTest" class="com.crm.comcast.campaignTest.CreateModDelCampTest"/>
+      </group> <!-- integration -->
+      <group name="smoke">
+        <method signature="CreateModDelCampTest.createCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@51565ec2]" name="createCampTest" class="com.crm.comcast.campaignTest.CreateModDelCampTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Surefire test" duration-ms="60" started-at="2022-05-11T10:41:35 IST" finished-at="2022-05-11T10:41:35 IST">
+      <class name="com.crm.comcast.campaignTest.CreateModDelCampTest">
+        <test-method status="PASS" signature="createCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@51565ec2]" name="createCampTest" duration-ms="9" started-at="2022-05-11T10:41:35 IST" finished-at="2022-05-11T10:41:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampTest -->
+        <test-method status="PASS" signature="delCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@51565ec2]" name="delCampTest" duration-ms="0" started-at="2022-05-11T10:41:35 IST" finished-at="2022-05-11T10:41:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delCampTest -->
+        <test-method status="PASS" signature="modifyCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@51565ec2]" name="modifyCampTest" duration-ms="1" started-at="2022-05-11T10:41:35 IST" finished-at="2022-05-11T10:41:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCampTest -->
+      </class> <!-- com.crm.comcast.campaignTest.CreateModDelCampTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
