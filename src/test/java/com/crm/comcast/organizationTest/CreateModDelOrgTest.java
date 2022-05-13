@@ -11,9 +11,9 @@ public class CreateModDelOrgTest {
 		
 		System.out.println("organization is created");
 		String brow = System.getProperty("browser");
-		String URL=System.getProperty("url");
 		System.out.println(brow);
-		System.out.println(URL);
+    	String Ulink=System.getProperty("url");
+		System.out.println(Ulink);
 		
 	}
 
