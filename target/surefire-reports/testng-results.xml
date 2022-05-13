@@ -1,34 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="60" started-at="2022-05-11T10:41:35 IST" finished-at="2022-05-11T10:41:35 IST">
+  <suite name="Suite" duration-ms="85" started-at="2022-05-13T13:01:06 IST" finished-at="2022-05-13T13:01:06 IST">
     <groups>
       <group name="regression">
-        <method signature="CreateModDelCampTest.modifyCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@51565ec2]" name="modifyCampTest" class="com.crm.comcast.campaignTest.CreateModDelCampTest"/>
+        <method signature="CreateModDelCampTest.modifyCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@4c70fda8]" name="modifyCampTest" class="com.crm.comcast.campaignTest.CreateModDelCampTest"/>
+        <method signature="CreateModDelConTest.delConTest()[pri:0, instance:comCastFrameWork.CreateModDelConTest@26be92ad]" name="delConTest" class="comCastFrameWork.CreateModDelConTest"/>
+        <method signature="CreateModDelConTest.modifyConTest()[pri:0, instance:comCastFrameWork.CreateModDelConTest@26be92ad]" name="modifyConTest" class="comCastFrameWork.CreateModDelConTest"/>
+        <method signature="CreateModDelOrgTest.delOrgTest()[pri:0, instance:com.crm.comcast.organizationTest.CreateModDelOrgTest@224edc67]" name="delOrgTest" class="com.crm.comcast.organizationTest.CreateModDelOrgTest"/>
+        <method signature="CreateModDelOrgTest.modifyOrgTest()[pri:0, instance:com.crm.comcast.organizationTest.CreateModDelOrgTest@224edc67]" name="modifyOrgTest" class="com.crm.comcast.organizationTest.CreateModDelOrgTest"/>
       </group> <!-- regression -->
       <group name="integration">
-        <method signature="CreateModDelCampTest.delCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@51565ec2]" name="delCampTest" class="com.crm.comcast.campaignTest.CreateModDelCampTest"/>
+        <method signature="CreateModDelCampTest.delCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@4c70fda8]" name="delCampTest" class="com.crm.comcast.campaignTest.CreateModDelCampTest"/>
       </group> <!-- integration -->
       <group name="smoke">
-        <method signature="CreateModDelCampTest.createCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@51565ec2]" name="createCampTest" class="com.crm.comcast.campaignTest.CreateModDelCampTest"/>
+        <method signature="CreateModDelCampTest.createCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@4c70fda8]" name="createCampTest" class="com.crm.comcast.campaignTest.CreateModDelCampTest"/>
+        <method signature="CreateModDelConTest.createConTest()[pri:0, instance:comCastFrameWork.CreateModDelConTest@26be92ad]" name="createConTest" class="comCastFrameWork.CreateModDelConTest"/>
+        <method signature="CreateModDelOrgTest.createOrgTest()[pri:0, instance:com.crm.comcast.organizationTest.CreateModDelOrgTest@224edc67]" name="createOrgTest" class="com.crm.comcast.organizationTest.CreateModDelOrgTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Surefire test" duration-ms="60" started-at="2022-05-11T10:41:35 IST" finished-at="2022-05-11T10:41:35 IST">
+    <test name="Test" duration-ms="85" started-at="2022-05-13T13:01:06 IST" finished-at="2022-05-13T13:01:06 IST">
+      <class name="com.crm.comcast.organizationTest.CreateModDelOrgTest">
+        <test-method status="PASS" signature="createOrgTest()[pri:0, instance:com.crm.comcast.organizationTest.CreateModDelOrgTest@224edc67]" name="createOrgTest" duration-ms="2" started-at="2022-05-13T13:01:06 IST" finished-at="2022-05-13T13:01:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method status="PASS" signature="delOrgTest()[pri:0, instance:com.crm.comcast.organizationTest.CreateModDelOrgTest@224edc67]" name="delOrgTest" duration-ms="1" started-at="2022-05-13T13:01:06 IST" finished-at="2022-05-13T13:01:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delOrgTest -->
+        <test-method status="PASS" signature="modifyOrgTest()[pri:0, instance:com.crm.comcast.organizationTest.CreateModDelOrgTest@224edc67]" name="modifyOrgTest" duration-ms="2" started-at="2022-05-13T13:01:06 IST" finished-at="2022-05-13T13:01:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyOrgTest -->
+      </class> <!-- com.crm.comcast.organizationTest.CreateModDelOrgTest -->
       <class name="com.crm.comcast.campaignTest.CreateModDelCampTest">
-        <test-method status="PASS" signature="createCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@51565ec2]" name="createCampTest" duration-ms="9" started-at="2022-05-11T10:41:35 IST" finished-at="2022-05-11T10:41:35 IST">
+        <test-method status="PASS" signature="createCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@4c70fda8]" name="createCampTest" duration-ms="0" started-at="2022-05-13T13:01:06 IST" finished-at="2022-05-13T13:01:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCampTest -->
-        <test-method status="PASS" signature="delCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@51565ec2]" name="delCampTest" duration-ms="0" started-at="2022-05-11T10:41:35 IST" finished-at="2022-05-11T10:41:35 IST">
+        <test-method status="PASS" signature="delCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@4c70fda8]" name="delCampTest" duration-ms="1" started-at="2022-05-13T13:01:06 IST" finished-at="2022-05-13T13:01:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delCampTest -->
-        <test-method status="PASS" signature="modifyCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@51565ec2]" name="modifyCampTest" duration-ms="1" started-at="2022-05-11T10:41:35 IST" finished-at="2022-05-11T10:41:35 IST">
+        <test-method status="PASS" signature="modifyCampTest()[pri:0, instance:com.crm.comcast.campaignTest.CreateModDelCampTest@4c70fda8]" name="modifyCampTest" duration-ms="1" started-at="2022-05-13T13:01:06 IST" finished-at="2022-05-13T13:01:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- modifyCampTest -->
       </class> <!-- com.crm.comcast.campaignTest.CreateModDelCampTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+      <class name="comCastFrameWork.CreateModDelConTest">
+        <test-method status="PASS" signature="createConTest()[pri:0, instance:comCastFrameWork.CreateModDelConTest@26be92ad]" name="createConTest" duration-ms="8" started-at="2022-05-13T13:01:06 IST" finished-at="2022-05-13T13:01:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConTest -->
+        <test-method status="PASS" signature="delConTest()[pri:0, instance:comCastFrameWork.CreateModDelConTest@26be92ad]" name="delConTest" duration-ms="0" started-at="2022-05-13T13:01:06 IST" finished-at="2022-05-13T13:01:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delConTest -->
+        <test-method status="PASS" signature="modifyConTest()[pri:0, instance:comCastFrameWork.CreateModDelConTest@26be92ad]" name="modifyConTest" duration-ms="0" started-at="2022-05-13T13:01:06 IST" finished-at="2022-05-13T13:01:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyConTest -->
+      </class> <!-- comCastFrameWork.CreateModDelConTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
